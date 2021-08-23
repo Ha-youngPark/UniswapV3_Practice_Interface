@@ -42,12 +42,25 @@ export const V3_CORE_FACTORY_ADDRESSES: AddressMap = constructSameAddressMap(V3_
   SupportedChainId.ARBITRUM_ONE,
   SupportedChainId.ARBITRUM_RINKEBY,
 ])
-export const QUOTER_ADDRESSES: AddressMap = constructSameAddressMap('0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6', [
+
+// export const QUOTER_ADDRESSES: AddressMap = constructSameAddressMap('0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6', [
+//   SupportedChainId.ARBITRUM_ONE,
+//   SupportedChainId.ARBITRUM_RINKEBY,
+// ])
+
+export const QUOTER_ADDRESSES: AddressMap = constructSameAddressMap('0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8', [
   SupportedChainId.ARBITRUM_ONE,
   SupportedChainId.ARBITRUM_RINKEBY,
 ])
+
+
+// export const NONFUNGIBLE_POSITION_MANAGER_ADDRESSES: AddressMap = constructSameAddressMap(
+//   '0xC36442b4a4522E871399CD717aBDD847Ab11FE88',
+//   [SupportedChainId.ARBITRUM_ONE, SupportedChainId.ARBITRUM_RINKEBY]
+// )
+
 export const NONFUNGIBLE_POSITION_MANAGER_ADDRESSES: AddressMap = constructSameAddressMap(
-  '0xC36442b4a4522E871399CD717aBDD847Ab11FE88',
+  '0xd9145CCE52D386f254917e481eB44e9943F39138',
   [SupportedChainId.ARBITRUM_ONE, SupportedChainId.ARBITRUM_RINKEBY]
 )
 export const ENS_REGISTRAR_ADDRESSES: AddressMap = {
