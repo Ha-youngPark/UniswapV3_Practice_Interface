@@ -53,7 +53,6 @@ export const QUOTER_ADDRESSES: AddressMap = constructSameAddressMap('0xd8b934580
   SupportedChainId.ARBITRUM_RINKEBY,
 ])
 
-
 // export const NONFUNGIBLE_POSITION_MANAGER_ADDRESSES: AddressMap = constructSameAddressMap(
 //   '0xC36442b4a4522E871399CD717aBDD847Ab11FE88',
 //   [SupportedChainId.ARBITRUM_ONE, SupportedChainId.ARBITRUM_RINKEBY]
