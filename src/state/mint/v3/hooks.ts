@@ -3,6 +3,16 @@ import { BIG_INT_ZERO } from '../../../constants/misc'
 import { getTickToPrice } from 'utils/getTickToPrice'
 import JSBI from 'jsbi'
 import { PoolState } from '../../../hooks/usePools'
+// import {
+//   Pool,
+//   FeeAmount,
+//   Position,
+//   priceToClosestTick,
+//   TickMath,
+//   tickToPrice,
+//   TICK_SPACINGS,
+//   encodeSqrtRatioX96,
+// } from '@uniswap/v3-sdk/dist/'
 import {
   Pool,
   FeeAmount,
@@ -12,7 +22,7 @@ import {
   tickToPrice,
   TICK_SPACINGS,
   encodeSqrtRatioX96,
-} from '@uniswap/v3-sdk/dist/'
+} from 'delioswap_v3_sdk/dist/'
 import { Currency, Token, CurrencyAmount, Price, Rounding } from '@uniswap/sdk-core'
 import { useCallback, useMemo } from 'react'
 import { useActiveWeb3React } from '../../../hooks/web3'

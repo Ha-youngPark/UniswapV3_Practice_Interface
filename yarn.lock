@@ -4172,10 +4172,10 @@
   "resolved" "https://registry.npmjs.org/@uniswap/merkle-distributor/-/merkle-distributor-1.0.1.tgz"
   "version" "1.0.1"
 
-"@uniswap/sdk-core@^3.0.0-alpha.3":
-  "integrity" "sha512-SS6fFbFZT2s/oq1dCdbqLGppVszfL1dkP8uQOIgXm9qecH9Vt70zTwQU73bLP2VskFZcpkN5inTAwSZiZSs5wA=="
-  "resolved" "https://registry.npmjs.org/@uniswap/sdk-core/-/sdk-core-3.0.0-alpha.3.tgz"
-  "version" "3.0.0-alpha.3"
+"@uniswap/sdk-core@^3.0.0-alpha.3", "@uniswap/sdk-core@^3.0.1":
+  "integrity" "sha512-WbeDkhZ9myVR0VnHOdTrb8nHKKkqTFa5uE9RvUbG3eyDt2NWWDwhhqGHwAWJEHG405l30Fa1u3PogHDFsIOQlA=="
+  "resolved" "https://registry.npmjs.org/@uniswap/sdk-core/-/sdk-core-3.0.1.tgz"
+  "version" "3.0.1"
   dependencies:
     "@ethersproject/address" "^5.0.2"
     "big.js" "^5.2.2"
@@ -8113,6 +8113,18 @@
     "@ethersproject/solidity" "^5.0.0"
     "@uniswap/sdk-core" "^3.0.0-alpha.3"
     "delioswap_test" "^1.0.0"
+    "tiny-invariant" "^1.1.0"
+    "tiny-warning" "^1.0.3"
+
+"delioswap_v3_sdk@^1.0.2":
+  "integrity" "sha512-/MlFdZDUlrF6CZG9XF+hNBZltPwGgqBe1pbsJ47XnCvr6hg2CiNVVPu97dbuadRKPj5yhwt8etAVbNaSDgXoBg=="
+  "resolved" "https://registry.npmjs.org/delioswap_v3_sdk/-/delioswap_v3_sdk-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "@ethersproject/abi" "^5.0.12"
+    "@ethersproject/solidity" "^5.0.9"
+    "@uniswap/sdk-core" "^3.0.1"
+    "@uniswap/v3-periphery" "1.0.0"
     "tiny-invariant" "^1.1.0"
     "tiny-warning" "^1.0.3"
 

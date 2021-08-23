@@ -1,5 +1,6 @@
 import { Currency } from '@uniswap/sdk-core'
-import { FeeAmount, Pool, tickToPrice, TICK_SPACINGS } from '@uniswap/v3-sdk'
+// import { FeeAmount, Pool, tickToPrice, TICK_SPACINGS } from '@uniswap/v3-sdk'
+import { FeeAmount, Pool, tickToPrice, TICK_SPACINGS } from 'delioswap_v3_sdk'
 import JSBI from 'jsbi'
 import { PoolState, usePool } from './usePools'
 import { useEffect, useMemo, useState } from 'react'

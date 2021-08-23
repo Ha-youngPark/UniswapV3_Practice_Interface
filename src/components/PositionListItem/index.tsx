@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
-import { Position } from '@uniswap/v3-sdk'
+// import { Position } from '@uniswap/v3-sdk'
+import { Position } from 'delioswap_v3_sdk'
 import Badge from 'components/Badge'
 import DoubleCurrencyLogo from 'components/DoubleLogo'
 import { usePool } from 'hooks/usePools'

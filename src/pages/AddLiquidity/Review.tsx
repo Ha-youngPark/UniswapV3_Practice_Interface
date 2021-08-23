@@ -3,7 +3,8 @@ import { AutoColumn } from 'components/Column'
 import Card from 'components/Card'
 import styled from 'styled-components/macro'
 import { Currency, CurrencyAmount, Price } from '@uniswap/sdk-core'
-import { Position } from '@uniswap/v3-sdk'
+// import { Position } from '@uniswap/v3-sdk'
+import { Position } from 'delioswap_v3_sdk'
 import { PositionPreview } from 'components/PositionPreview'
 
 const Wrapper = styled.div`

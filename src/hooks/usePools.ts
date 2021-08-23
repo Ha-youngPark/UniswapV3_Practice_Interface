@@ -6,7 +6,8 @@ import { useMemo } from 'react'
 import { useActiveWeb3React } from './web3'
 import { useMultipleContractSingleData } from '../state/multicall/hooks'
 
-import { Pool, FeeAmount } from '@uniswap/v3-sdk'
+// import { Pool, FeeAmount } from '@uniswap/v3-sdk'
+import { Pool, FeeAmount } from 'delioswap_v3_sdk'
 import { abi as IUniswapV3PoolStateABI } from '@uniswap/v3-core/artifacts/contracts/interfaces/pool/IUniswapV3PoolState.sol/IUniswapV3PoolState.json'
 import { Interface } from '@ethersproject/abi'
 
