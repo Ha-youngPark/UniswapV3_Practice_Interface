@@ -43,12 +43,10 @@ export const V3_CORE_FACTORY_ADDRESSES: AddressMap = constructSameAddressMap(V3_
   SupportedChainId.ARBITRUM_RINKEBY,
 ])
 
-
 export const QUOTER_ADDRESSES: AddressMap = constructSameAddressMap('0xE41FFA9130dF99c6bBF06F01a12392cF6B2FE9Cc', [
   SupportedChainId.ARBITRUM_ONE,
   SupportedChainId.ARBITRUM_RINKEBY,
 ])
-
 
 export const NONFUNGIBLE_POSITION_MANAGER_ADDRESSES: AddressMap = constructSameAddressMap(
   '0x3daD7c81847bCf7D5411BB11135Af4DE67ABE04c',
